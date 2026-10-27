@@ -1,43 +1,75 @@
-# HideQuests
+# BetterDiscord Addons
 
-**HideQuests** is a lightweight, configurable BetterDiscord plugin for hiding selected Discord Quest interface elements.
+A collection of custom plugins and themes designed to enhance, customize, and improve the overall Discord experience.
 
-## Features
+This repository serves as the central hub for my BetterDiscord projects, including quality-of-life improvements, interface enhancements, and visual customizations.
 
-- Nine independently configurable hiding categories
-- A grouped settings interface with instant application
-- Optional custom CSS selectors (one per line)
-- Persistent preferences via BetterDiscord's data API
-- Automatic cleanup when disabled
-- No external dependencies
+Each project is maintained in its own directory with dedicated documentation, installation instructions, and additional information.
+
+## Plugins
+
+Plugins extend Discord's functionality by introducing new features, customization options, and quality-of-life improvements.
+
+| Plugin | Description |
+|---|---|
+| **[HideQuests](./Plugins/HideQuests/)** | A lightweight, customizable plugin that hides Discord Quests, promotions, notifications, and other Quest-related interface elements for a cleaner, distraction-free experience. |
+
+*Additional plugins may be added as development continues.*
+
+## Themes
+
+Themes customize Discord's appearance through visual improvements, layout adjustments, and personalized styling.
+
+*No themes are currently available. Future themes will be listed here as they are released.*
 
 ## Installation
 
-1. Download `HideQuests.plugin.js`.
-2. Open Discord → User Settings → BetterDiscord → Plugins → Open Plugins Folder.
-3. Place the file in that folder and enable **HideQuests**.
-4. Open plugin settings to customize the categories.
+### Plugins
 
-## Settings
+1. Install [BetterDiscord](https://betterdiscord.app/) if you haven't already.
+2. Download the desired `.plugin.js` file from its project directory.
+3. Open Discord and navigate to **User Settings → BetterDiscord → Plugins**.
+4. Click **Open Plugins Folder** and place the downloaded file inside.
+5. Return to Discord and enable the plugin.
 
-Navigation, promotions, banners, cards, progress, rewards, notifications, buttons, and activity can each be hidden independently. All categories are enabled by default.
+### Themes
 
-## Custom selectors
+1. Install [BetterDiscord](https://betterdiscord.app/) if you haven't already.
+2. Download the desired `.theme.css` file from its project directory.
+3. Open Discord and navigate to **User Settings → BetterDiscord → Themes**.
+4. Click **Open Themes Folder** and place the downloaded file inside.
+5. Return to Discord and enable the theme.
 
-Add one valid CSS selector per line in the advanced settings field. Custom selectors are applied when the field loses focus. Be careful: broad selectors may hide unrelated Discord UI.
+## Documentation
 
-## Compatibility and limitations
+Each plugin and theme has its own directory containing relevant documentation, which may include:
 
-HideQuests visually hides matching UI elements; it does not disable Quests, block network requests, or modify your account. Discord frequently changes class names and layouts, so some Quest elements may not match the bundled selectors. The plugin has not yet been tested against all current Discord releases.
+- **README:** Features, configuration options, and installation instructions.
+- **Changelog:** Version history, improvements, and bug fixes.
+- **Troubleshooting:** Known issues and potential solutions.
 
-## Privacy
+For detailed information, visit the individual project's directory.
 
-The plugin does not collect telemetry, send network requests, or access external services. Preferences are saved locally through BetterDiscord.
+## Issues and Suggestions
 
-## Version
+Encountered a bug or have an idea for a new feature?
 
-1.0.0 — Initial public release candidate.
+Please use the repository's **Issues** section to report problems, suggest improvements, or provide feedback.
 
-## Author
+When reporting an issue, include the affected plugin or theme, its version, and a description of the problem.
 
-MonkeyPr0grammer
+## Compatibility
+
+These addons are designed for use with BetterDiscord.
+
+Compatibility may vary depending on Discord updates, BetterDiscord changes, and individual addon versions. Refer to each project's documentation for specific requirements and known limitations.
+
+## Disclaimer
+
+These projects are independently developed and are not affiliated with, endorsed by, or officially supported by Discord or BetterDiscord.
+
+Use these addons at your own discretion.
+
+---
+
+**Developed and maintained by MonkeyPr0grammer.**
