@@ -1,8 +1,11 @@
 /**
  * @name HideQuests
  * @author MonkeyPr0grammer
+ * @authorLink https://github.com/M0nkeyPr0grammer
  * @version 1.0.0
  * @description Hide Discord Quest navigation, promotions, notifications and other Quest UI with customizable settings.
+ * @source https://github.com/M0nkeyPr0grammer/M0nkeyPr0grammers-BetterDiscordAddons
+ * @donate https://buymeacoffee.com/m0nkeypr0grammer
  */
 
 /**
