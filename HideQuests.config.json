@@ -1,0 +1,16 @@
+{
+  "all": {
+    "general": {
+      "navigation": true,
+      "promotions": true,
+      "banners": true,
+      "cards": true,
+      "progress": true,
+      "rewards": true,
+      "notifications": true,
+      "buttons": true,
+      "activity": true,
+      "customSelectors": ""
+    }
+  }
+}
